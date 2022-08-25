@@ -1,12 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
-* {
-  margin: 0 auto;
-}
-
 /* HEADER */
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 .header {
   background-color: #F9F4FE;
-  font-family: "Montserrat", sans-serif;
   font-size: x-large;
   width: 70%;
   margin-top: 1%;
@@ -95,5 +90,30 @@
 }
 
 /* CIERRO CONTACTO */
+.titulo {
+  color: #C20114;
+  margin-top: 11%;
+}
+
+.catalogo {
+  background-color: #E8C39E;
+  color: black;
+  font-size: x-large;
+}
+
+.card-title {
+  margin-top: 25%;
+  font-size: 300%;
+  color: black;
+}
+
+.btnvermas {
+  margin-left: 42%;
+}
+
+* {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
