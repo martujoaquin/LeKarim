@@ -1,7 +1,7 @@
 /* HEADER */
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 .header {
-  background-color: #F9F4FE;
+  background-color: #E8C39E;
   font-size: x-large;
   width: 70%;
   margin-top: 1%;
@@ -158,6 +158,11 @@ a {
 
 .btnvermas {
   margin-left: 42%;
+}
+
+.categoria {
+  background-color: rgba(255, 255, 255, 0.5);
+  /* padding: 1%; */
 }
 
 .imgproduct {
