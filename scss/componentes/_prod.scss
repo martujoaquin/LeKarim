@@ -15,77 +15,424 @@
 
 /*CUBRECAMAS*/
 
-/*QUILT ESTAMPADO*/
-
-#qe1{
-    background-color: #657c8e;
-}
-
-#qe2{
-    background-color: #c8c2b2;
-}
-
-#qe3{
-    background-color: #547a8d;
-}
-
-#qe4{
-    background-color: #bab3a9;
-}
-
-#qe5{
-    background-color: #d6736d;
-}
-
-/*QUILT ESTAMPADO*/
+/*QUILT LISA*/
 
 #ql1{
-    background-color: #ebe9ea;
+    background-color: $blanco;
 }
 #ql2{
-    background-color: #3c3c3a;
+    background-color: $negro;
 }
 #ql3{
-    background-color: #bd3448;
+    background-color: $rojo;
 }
 #ql4{
-    background-color: #4891b4;
+    background-color: $celeste;
 }
 #ql5{
-    background-color: #1f3c5a;
+    background-color: $azulMarino;
 }
 #ql6{
-    background-color: #dad3c1;
+    background-color: $natural;
 }
 #ql7{
-    background-color: #bfac9b;
+    background-color: $beige;
 }
 #ql8{
-    background-color: #9a9695;
+    background-color: $grisClaro;
 }
 #ql9{
-    background-color: #585856;
+    background-color: $grisOscuro;
 }
 
 /*QUILT LUXURY */
 
 #cql1{
-    background-color: #d6d2d1;
+    background-color: $negro;
 }
 #cql2{
-    background-color: #9b9795;
+    background-color: $blanco;
 }
 #cql3{
-    background-color: #c1b2a2;
+    background-color: $beige;
 }
 #cql4{
-    background-color: #373534;
+    background-color: $natural;
 }
 #cql5{
-    background-color: #d4cfc3;
+    background-color: $grisClaro;
 }
 
 /*CUBRECAMA JACQUARD*/
 #cj1{
-    background-color: #dddad0;
+    background-color: $natural;
+}
+
+/*ACOLCHADO LISO*/
+#al1{
+    background-color: $negro;
+}
+#al2{
+    background-color: $rojo;
+}
+#al3{
+    background-color: $celeste;
+}
+#al4{
+    background-color: $violeta;
+}
+#al5{
+    background-color: $lila;
+}
+#al6{
+    background-color: $beige;
+}
+#al7{
+    background-color: $natural;
+}
+#al8{
+    background-color: $bordo;
+}
+#al9{
+    background-color: $marron;
+}
+#al10{
+    background-color: $azulMarino;
+}
+#al11{
+    background-color: $azulFrancia;
+}
+#al12{
+    background-color: $verde;
+}
+#al13{
+    background-color: $maiz;
+}
+#al14{
+    background-color: $fucsia;
+}
+
+/*SABANA LISA*/
+#sl1{
+    background-color: $negro;
+}
+#sl2{
+    background-color: $rojo;
+}
+#sl3{
+    background-color: $celeste;
+}
+#sl4{
+    background-color: $violeta;
+}
+#sl5{
+    background-color: $lila;
+}
+#sl6{
+    background-color: $beige;
+}
+#sl7{
+    background-color: $natural;
+}
+#sl8{
+    background-color: $bordo;
+}
+#sl9{
+    background-color: $marron;
+}
+#sl10{
+    background-color: $azulMarino;
+}
+#sl11{
+    background-color: $azulFrancia;
+}
+#sl12{
+    background-color: $verde;
+}
+#sl13{
+    background-color: $maiz;
+}
+#sl14{
+    background-color: $fucsia;
+}
+
+/*SABANA LUXURY LISO*/
+#slu1{
+    background-color: $grisClaro;
+}
+#slu2{
+    background-color: $grisOscuro;
+}
+#slu3{
+    background-color: $blanco;
+}
+#slu4{
+    background-color: $rojo;
+}
+#slu5{
+    background-color: $azul;
+}
+#slu6{
+    background-color: $negro;
+}
+#slu7{
+    background-color: $beige;
+}
+#slu8{
+    background-color: $vison;
+}
+#slu9{
+    background-color: $natural;
+}
+#slu10{
+    background-color: $salmon;
+}
+#slu11{
+    background-color: $verdeAgua;
+}
+
+/*AJUSTABLE CLASICO*/
+#ac1{
+    background-color: $negro;
+}
+#ac2{
+    background-color: $rojo;
+}
+#ac3{
+    background-color: $celeste;
+}
+#ac4{
+    background-color: $violeta;
+}
+#ac5{
+    background-color: $lila;
+}
+#ac6{
+    background-color: $beige;
+}
+#ac7{
+    background-color: $natural;
+}
+#ac8{
+    background-color: $bordo;
+}
+#ac9{
+    background-color: $marron;
+}
+#ac10{
+    background-color: $azulMarino;
+}
+#ac11{
+    background-color: $azulFrancia;
+}
+#ac12{
+    background-color: $verde;
+}
+#ac13{
+    background-color: $maiz;
+}
+#ac14{
+    background-color: $fucsia;
+}
+
+/*AJUSTABLE LUXURY*/
+#alu1{
+    background-color: $grisClaro;
+}
+#alu2{
+    background-color: $grisOscuro;
+}
+#alu3{
+    background-color: $blanco;
+}
+#alu4{
+    background-color: $rojo;
+}
+#alu5{
+    background-color: $azul;
+}
+#alu6{
+    background-color: $negro;
+}
+#alu7{
+    background-color: $beige;
+}
+#alu8{
+    background-color: $vison;
+}
+#alu9{
+    background-color: $natural;
+}
+#alu10{
+    background-color: $salmon;
+}
+#alu11{
+    background-color: $verdeAgua;
+}
+
+/*CORTINA TROPICAL*/
+#ct1{
+    background-color: $blanco;
+}
+#ct2{
+    background-color: $negro;
+}
+#ct3{
+    background-color: $rojo;
+}
+#ct4{
+    background-color: $beige;
+}
+#ct5{
+    background-color: $azulFrancia;
+}
+#ct6{
+    background-color: $maiz;
+}
+#ct7{
+    background-color: $azulMarino;
+}
+#ct8{
+    background-color: $bordo;
+}
+#ct9{
+    background-color: $verdeBenetton;
+}
+#ct10{
+    background-color: $gris;
+}
+#ct11{
+    background-color: $natural;
+}
+#ct12{
+    background-color: $vison;
+}
+#ct13{
+    background-color: $cemento;
+}
+#ct14{
+    background-color: $naranja;
+}
+#ct15{
+    background-color: $fucsia;
+}
+
+/*CORTINA BLACK OUT*/
+#cb1{
+    background-color: $aero;
+}
+#cb2{
+    background-color: $beigeOscuro;
+}
+#cb3{
+    background-color: $blanco;
+}
+#cb4{
+    background-color: $bordo;
+}
+#cb5{
+    background-color: $grisClaro;
+}
+#cb6{
+    background-color: $grisOscuro;
+}
+#cb7{
+    background-color: $cemento;
+}
+#cb8{
+    background-color: $beigeClaro;
+}
+#cb9{
+    background-color: $maiz;
+}
+#cb10{
+    background-color: $rojo;
+}
+#cb11{
+    background-color: $natural;
+}
+#cb12{
+    background-color: $negro;
+}
+
+/*CORTINA MADRAS*/
+#cm1{
+    background-color: $maiz;
+}
+#cm2{
+    background-color: $malva;
+}
+#cm3{
+    background-color: $beige;
+}
+#cm4{
+    background-color: $ladrillo;
+}
+#cm5{
+    background-color: $grisPlata;
+}
+#cm6{
+    background-color: $blanco;
+}
+#cm7{
+    background-color: $aero;
+}
+#cm8{
+    background-color: $bordo;
+}
+#cm9{
+    background-color: $natural;
+}
+#cm10{
+    background-color: $verdeAgua;
+}
+
+/*CORTINA VOILE*/
+#cv1{
+    background-color: $blanco;
+}
+#cv2{
+    background-color: $natural;
+}
+
+/*CORTINA JACQUARD*/
+#coj1{
+    background-color: $natural;
+}
+
+/*MANTELES*/
+#me1{
+    background-color: $negro;
+}
+#me2{
+    background-color: $blanco;
+}
+#me3{
+    background-color: $natural;
+}
+#me4{
+    background-color: $grisClaro;
+}
+#me5{
+    background-color: $dorado;
+}
+#me6{
+    background-color: $marron;
+}
+#me7{
+    background-color: $bordo;
+}
+#me8{
+    background-color: $rojo;
+}
+#me9{
+    background-color: $verdeAgua;
+}
+#me10{
+    background-color: $salmon;
+}
+
+/*ALMOHADA*/
+#alm{
+    background-color: $blanco;
 }

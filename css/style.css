@@ -182,34 +182,13 @@ a {
 }
 
 /*CUBRECAMAS*/
-/*QUILT ESTAMPADO*/
-#qe1 {
-  background-color: #657c8e;
-}
-
-#qe2 {
-  background-color: #c8c2b2;
-}
-
-#qe3 {
-  background-color: #547a8d;
-}
-
-#qe4 {
-  background-color: #bab3a9;
-}
-
-#qe5 {
-  background-color: #d6736d;
-}
-
-/*QUILT ESTAMPADO*/
+/*QUILT LISA*/
 #ql1 {
   background-color: #ebe9ea;
 }
 
 #ql2 {
-  background-color: #3c3c3a;
+  background-color: #212121;
 }
 
 #ql3 {
@@ -229,7 +208,7 @@ a {
 }
 
 #ql7 {
-  background-color: #bfac9b;
+  background-color: #f2e7bf;
 }
 
 #ql8 {
@@ -242,28 +221,500 @@ a {
 
 /*QUILT LUXURY */
 #cql1 {
-  background-color: #d6d2d1;
+  background-color: #212121;
 }
 
 #cql2 {
-  background-color: #9b9795;
+  background-color: #ebe9ea;
 }
 
 #cql3 {
-  background-color: #c1b2a2;
+  background-color: #f2e7bf;
 }
 
 #cql4 {
-  background-color: #373534;
+  background-color: #dad3c1;
 }
 
 #cql5 {
-  background-color: #d4cfc3;
+  background-color: #9a9695;
 }
 
 /*CUBRECAMA JACQUARD*/
 #cj1 {
-  background-color: #dddad0;
+  background-color: #dad3c1;
+}
+
+/*ACOLCHADO LISO*/
+#al1 {
+  background-color: #212121;
+}
+
+#al2 {
+  background-color: #bd3448;
+}
+
+#al3 {
+  background-color: #4891b4;
+}
+
+#al4 {
+  background-color: #7600a9;
+}
+
+#al5 {
+  background-color: #c8a2c8;
+}
+
+#al6 {
+  background-color: #f2e7bf;
+}
+
+#al7 {
+  background-color: #dad3c1;
+}
+
+#al8 {
+  background-color: #800000;
+}
+
+#al9 {
+  background-color: #7a2d0f;
+}
+
+#al10 {
+  background-color: #1f3c5a;
+}
+
+#al11 {
+  background-color: #000d33;
+}
+
+#al12 {
+  background-color: #005221;
+}
+
+#al13 {
+  background-color: #ffda58;
+}
+
+#al14 {
+  background-color: #f400a1;
+}
+
+/*SABANA LISA*/
+#sl1 {
+  background-color: #212121;
+}
+
+#sl2 {
+  background-color: #bd3448;
+}
+
+#sl3 {
+  background-color: #4891b4;
+}
+
+#sl4 {
+  background-color: #7600a9;
+}
+
+#sl5 {
+  background-color: #c8a2c8;
+}
+
+#sl6 {
+  background-color: #f2e7bf;
+}
+
+#sl7 {
+  background-color: #dad3c1;
+}
+
+#sl8 {
+  background-color: #800000;
+}
+
+#sl9 {
+  background-color: #7a2d0f;
+}
+
+#sl10 {
+  background-color: #1f3c5a;
+}
+
+#sl11 {
+  background-color: #000d33;
+}
+
+#sl12 {
+  background-color: #005221;
+}
+
+#sl13 {
+  background-color: #ffda58;
+}
+
+#sl14 {
+  background-color: #f400a1;
+}
+
+/*SABANA LUXURY LISO*/
+#slu1 {
+  background-color: #9a9695;
+}
+
+#slu2 {
+  background-color: #585856;
+}
+
+#slu3 {
+  background-color: #ebe9ea;
+}
+
+#slu4 {
+  background-color: #bd3448;
+}
+
+#slu5 {
+  background-color: #0e4bef;
+}
+
+#slu6 {
+  background-color: #212121;
+}
+
+#slu7 {
+  background-color: #f2e7bf;
+}
+
+#slu8 {
+  background-color: #9c9695;
+}
+
+#slu9 {
+  background-color: #dad3c1;
+}
+
+#slu10 {
+  background-color: #edb28c;
+}
+
+#slu11 {
+  background-color: #578152;
+}
+
+/*AJUSTABLE CLASICO*/
+#ac1 {
+  background-color: #212121;
+}
+
+#ac2 {
+  background-color: #bd3448;
+}
+
+#ac3 {
+  background-color: #4891b4;
+}
+
+#ac4 {
+  background-color: #7600a9;
+}
+
+#ac5 {
+  background-color: #c8a2c8;
+}
+
+#ac6 {
+  background-color: #f2e7bf;
+}
+
+#ac7 {
+  background-color: #dad3c1;
+}
+
+#ac8 {
+  background-color: #800000;
+}
+
+#ac9 {
+  background-color: #7a2d0f;
+}
+
+#ac10 {
+  background-color: #1f3c5a;
+}
+
+#ac11 {
+  background-color: #000d33;
+}
+
+#ac12 {
+  background-color: #005221;
+}
+
+#ac13 {
+  background-color: #ffda58;
+}
+
+#ac14 {
+  background-color: #f400a1;
+}
+
+/*AJUSTABLE LUXURY*/
+#alu1 {
+  background-color: #9a9695;
+}
+
+#alu2 {
+  background-color: #585856;
+}
+
+#alu3 {
+  background-color: #ebe9ea;
+}
+
+#alu4 {
+  background-color: #bd3448;
+}
+
+#alu5 {
+  background-color: #0e4bef;
+}
+
+#alu6 {
+  background-color: #212121;
+}
+
+#alu7 {
+  background-color: #f2e7bf;
+}
+
+#alu8 {
+  background-color: #9c9695;
+}
+
+#alu9 {
+  background-color: #dad3c1;
+}
+
+#alu10 {
+  background-color: #edb28c;
+}
+
+#alu11 {
+  background-color: #578152;
+}
+
+/*CORTINA TROPICAL*/
+#ct1 {
+  background-color: #ebe9ea;
+}
+
+#ct2 {
+  background-color: #212121;
+}
+
+#ct3 {
+  background-color: #bd3448;
+}
+
+#ct4 {
+  background-color: #f2e7bf;
+}
+
+#ct5 {
+  background-color: #000d33;
+}
+
+#ct6 {
+  background-color: #ffda58;
+}
+
+#ct7 {
+  background-color: #1f3c5a;
+}
+
+#ct8 {
+  background-color: #800000;
+}
+
+#ct9 {
+  background-color: #268431;
+}
+
+#ct10 {
+  background-color: #909090;
+}
+
+#ct11 {
+  background-color: #dad3c1;
+}
+
+#ct12 {
+  background-color: #9c9695;
+}
+
+#ct13 {
+  background-color: #a7a493;
+}
+
+#ct14 {
+  background-color: #fc9303;
+}
+
+#ct15 {
+  background-color: #f400a1;
+}
+
+/*CORTINA BLACK OUT*/
+#cb1 {
+  background-color: #7cb9e8;
+}
+
+#cb2 {
+  background-color: #a9957b;
+}
+
+#cb3 {
+  background-color: #ebe9ea;
+}
+
+#cb4 {
+  background-color: #800000;
+}
+
+#cb5 {
+  background-color: #9a9695;
+}
+
+#cb6 {
+  background-color: #585856;
+}
+
+#cb7 {
+  background-color: #a7a493;
+}
+
+#cb8 {
+  background-color: #c4ab89;
+}
+
+#cb9 {
+  background-color: #ffda58;
+}
+
+#cb10 {
+  background-color: #bd3448;
+}
+
+#cb11 {
+  background-color: #dad3c1;
+}
+
+#cb12 {
+  background-color: #212121;
+}
+
+/*CORTINA MADRAS*/
+#cm1 {
+  background-color: #ffda58;
+}
+
+#cm2 {
+  background-color: #b4aabc;
+}
+
+#cm3 {
+  background-color: #f2e7bf;
+}
+
+#cm4 {
+  background-color: #944d43;
+}
+
+#cm5 {
+  background-color: #4c4d44;
+}
+
+#cm6 {
+  background-color: #ebe9ea;
+}
+
+#cm7 {
+  background-color: #7cb9e8;
+}
+
+#cm8 {
+  background-color: #800000;
+}
+
+#cm9 {
+  background-color: #dad3c1;
+}
+
+#cm10 {
+  background-color: #578152;
+}
+
+/*CORTINA VOILE*/
+#cv1 {
+  background-color: #ebe9ea;
+}
+
+#cv2 {
+  background-color: #dad3c1;
+}
+
+/*CORTINA JACQUARD*/
+#coj1 {
+  background-color: #dad3c1;
+}
+
+/*MANTELES*/
+#me1 {
+  background-color: #212121;
+}
+
+#me2 {
+  background-color: #ebe9ea;
+}
+
+#me3 {
+  background-color: #dad3c1;
+}
+
+#me4 {
+  background-color: #9a9695;
+}
+
+#me5 {
+  background-color: #e7bd42;
+}
+
+#me6 {
+  background-color: #7a2d0f;
+}
+
+#me7 {
+  background-color: #800000;
+}
+
+#me8 {
+  background-color: #bd3448;
+}
+
+#me9 {
+  background-color: #578152;
+}
+
+#me10 {
+  background-color: #edb28c;
+}
+
+/*ALMOHADA*/
+#alm {
+  background-color: #ebe9ea;
 }
 
 * {
