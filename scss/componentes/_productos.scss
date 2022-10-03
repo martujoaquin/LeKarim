@@ -11,11 +11,6 @@
     font-size: x-large;
 }
 
-/* .categorias{
-    width: 65%;
-    height: 100%;
-}
- */
 .card-title{
     margin-top: 25%;
     font-size: 300%;
@@ -29,4 +24,29 @@
 .categoria{
     background-color: rgba(255,255,255,0.5);
     /* padding: 1%; */
+}
+
+
+@media screen and (max-width:1000px) {
+    .card-title{
+        font-size: 180%;
+    }
+    #estampado{
+        margin-top: 15%;
+    }
+    .btnvermas{
+        width: 40%;
+        margin-left: 30%;
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .btnvermas{
+        font-size: 80%;
+    }
+    .card-title{
+        font-size: 150%;
+    }
+    
 }
