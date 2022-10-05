@@ -48,8 +48,8 @@
     }
 
     .dot{
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: 1px;
+        margin-left: 1px;
         padding: 7%;
     }
     .dot-containerI{
@@ -69,12 +69,15 @@
     .centrarimgleft{
         margin-left: 4px;
     }
+    #JAC{
+        display: none;
+    }
     .dot-containerI{  
         margin-left: 6%;
     }
     .dot-containerD{
         margin-right: 0;
-    }    
+    }   
 }
 /*QUILT LISA*/
 
