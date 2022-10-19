@@ -21,8 +21,18 @@
     .textofooter{
         font-size: small;
     }
+    .navbar-nav{
+        background-color: rgba(255,255,255,0.9);
+        width: 100%;
+        height: 100%;
+      }
+      body{
+      overflow-x: hidden;
+      }
+      .navbar-toggler{
+        background-color: white;
+      }
 }
-
 @media screen and (min-width: 1000px){
     .tituloCEL{
         display: none;
