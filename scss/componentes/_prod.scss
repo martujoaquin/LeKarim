@@ -11,6 +11,7 @@
     margin-right: 1px;
 }
 
+
 .dot-containerI{
     width: 50%;
     display: flex;
@@ -76,7 +77,7 @@
         display: none;
     }
     .dot-containerI{  
-        margin-left: 6%;
+        margin-left: 1%;
     }
     .dot-containerD{
         margin-right: 0;
@@ -503,3 +504,62 @@
 #alm{
     background-color: $blanco;
 }
+
+
+/*ACOLCHADO LUXURY*/
+#aclu1{
+    background-color: $blanco;
+}
+#aclu2{
+    background-color: $natural;
+}
+#aclu3{
+    background-color: $vainilla;
+}
+#aclu4{
+    background-color: $rosaViejo;
+}
+#aclu5{
+    background-color: $beige;
+}
+#aclu6{
+    background-color: $verdeMenta;
+}
+#aclu7{
+    background-color: $grisPlata;
+}
+#aclu8{
+    background-color: $grisOscuro;
+}
+#aclu9{
+    background-color: $negro;
+}
+#aclu10{
+    background-color: $crema;
+}
+#aclu11{
+    background-color: $vison;
+}
+
+
+/*ACOLCHADO FLEECE*/
+
+#acf1{
+    background-color: $blanco;
+}
+#acf2{
+    background-color: $negro;
+}
+#acf3{
+    background-color: $violeta;
+}
+#acf4{
+    background-color: $beige;
+}
+#acf5{
+    background-color: $gris;
+}
+#acf6{
+    background-color: $maiz;
+}
+
