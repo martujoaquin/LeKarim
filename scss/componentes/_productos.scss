@@ -1,7 +1,7 @@
 @import '../base/listas';
 
 .titulo{
-    color: $colorTitulos;
+    color: #fff;
     margin-top: 11%;
 }
 
@@ -9,6 +9,8 @@
     background-color: $colorBotones;
     color: black;
     font-size: x-large;
+    border: black 1px solid;
+    box-shadow: 3px 3px rgba(0,0,0,0.5);
 }
 
 .card-title{
