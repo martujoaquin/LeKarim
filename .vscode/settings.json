@@ -1,3 +1,25 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Dark-Dracula",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "php.validate.executablePath": "././php/php.exe",
+    "php.suggest.basic": true,
+    "php.validate.enable": true,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ]
 }
