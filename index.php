@@ -1,3 +1,23 @@
+<?php
+
+if(isset($_POST["submit"]))
+{
+    $nombre = $_POST["nombre"];
+    $mail = $_POST["mail"];
+    $telefono = $_POST["telefono"];
+    $mensaje = $_POST["mensaje"];
+    
+    $para = "lekarimsrl@gmail.com";
+    $asunto = "Este email fue enviado desde la web de Le Karim";
+    $message = $nombre . "" . $telefono . "" . $mail . "\n\n" . $mensaje;
+    
+    mail($para, $asunto, utf8_decode($message));
+    
+    header('Location:exito.html');
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,7 +130,7 @@
     <!-- CONTACTO -->
     <section class="contacto" id="contacto">
       <h1 class="titulocontacto text-center">Contacto</h1>
-      <form action="form.php" method="POST" class="p-3">
+      <form action="" method="POST" class="p-3">
         <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingInput" placeholder="name" name="nombre" required>
             <label for="floatingInput">Nombre*</label>
