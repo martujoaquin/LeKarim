@@ -8,6 +8,7 @@ if(isset($_POST["submit"]))
     $mensaje = $_POST["mensaje"];
     
     $para = "martujoaquin02@gmail.com";
+    $de = "lekarimsrl@gmail.com";
     $asunto = "Este email fue enviado desde la web de Le Karim";
     $message = $nombre . "" . $telefono . "" . $mail . "\n\n" . $mensaje;
     
