@@ -37,6 +37,10 @@
   .navbar-toggler {
     background-color: white;
   }
+  .iframe{
+    width: 95%;
+    height: 2000px;
+  }
 }
 @media screen and (min-width: 1000px) {
   .tituloCEL {
@@ -48,6 +52,10 @@
   }
   .imgprods {
     width: 35%;
+  }
+  .formsGoogle {
+    width: 1100px;
+    height: 1000px;
   }
 }
 .header {
@@ -160,6 +168,13 @@ form {
 
 .enviar:hover {
   background-color: #76aeed;
+}
+
+.btncont {
+  font-size: larger;
+  border: 3px white solid;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 /* CIERRO CONTACTO */
