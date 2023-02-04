@@ -1,6 +1,25 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-/* if (isset($_POST['submit']))
+require '../Composer/vendor/autoload.php';
+require '../PHPMailer-master/src/Exception.php';
+require '../PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
+
+$email = new PHPMailer(TRUE);
+$email->isSMTP();
+$email->Mailer = "smtp";
+
+$email->SMTPDebug  = 1;  
+$email->SMTPAuth   = TRUE;
+$email->SMTPSecure = "tls";
+$email->Port       = 587;
+$email->Host       = "smtp.gmail.com";
+$email->Username   = "martujoaquin02@mail.com";
+$email->Password   = "Martu2503";
+
+if (isset($_POST['submit']))
 {
     $mailto = "martinajoaquin02@gmail.com";
     $name = $_POST['nombre'];
@@ -29,23 +48,6 @@ if($result1 && $result2){
     header('Location:exito.html');
 } else {
     $failed = "Tu mensaje no se pudo enviar, intentalo nuevamente";
-} */
-
-if(isset($_POST["submit"]))
-{
-    $nombre = $_POST["nombre"];
-    $mail = $_POST["mail"];
-    $telefono = $_POST["telefono"];
-    $mensaje = $_POST["mensaje"];
-    
-    $para = "martujoaquin02@gmail.com";
-    $asunto = "Este email fue enviado desde la web de Le Karim";
-    $message = $nombre . "" . $telefono . "" . $mail . "\n\n" . $mensaje;
-    
-    mail($para, $asunto, utf8_decode($message));
-    
-    header('Location:exito.html');
 } 
-
 ?>
 
